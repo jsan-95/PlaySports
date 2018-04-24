@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-abr-2018, 21:05:09
+    Author     : Yisus95
+*/
+
+.clickable:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.selected {
+    color: red;
+    cursor: pointer;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+}
