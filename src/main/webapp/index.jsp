@@ -12,7 +12,7 @@
         <jsp:include page="header.jsp" />
 
     <div class="container-fluid w-100">
-        <img class="d-block w-100" src="/PlaySports/mobile.jpg" alt="First slide">
+        <img class="d-block w-100" src="mobile.jpg" alt="First slide">
 
         <div class="carousel-caption">
 
