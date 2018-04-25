@@ -41,7 +41,7 @@
                                                 <button type="submit" class="btn btn-primary btn-block">Login</button>
                                             </div>
                                             <div class="form-group text-xs-center">
-                                                <small><a href="">Crear una cuenta</a></small>
+                                                <small><a href="registrationForm.jsp">Crear una cuenta</a></small>
                                             </div>
                                         </form>
                                     </li>

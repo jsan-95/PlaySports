@@ -24,8 +24,138 @@
             </div>
         </div>
     </div>
+
+    <div class="container-fluid w-100">
+        <br>
+        <br>
+        <h1 class="text-center">Algunos clubes</h1>
+        <div class="row">
+            <div class="col-sm">
+                <img class="image" type="image" width="377" height="260" src="padel1.jpg">
+                <div class="carousel-caption">
+                    <div class="item active">
+                        <div class="col-md-14 col-sm-14">
+                            <h4>C/Pepe salgado, 8, 9898 </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <img class="image" type="image" width="377" height="260" src="padel2.jpg">
+                <div class="carousel-caption">
+                    <div class="item active">
+                        <div class="col-md-14 col-sm-14">
+                            <h4>C/Juan salgado, 8, 988 </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <img class="image" type="image" width="377" height="260" src="padel3.jpg">
+                <div class="carousel-caption">
+                    <div class="item active">
+                        <div class="col-md-14 col-sm-14">
+                            <h4>C/Luis salgado, 12, 1298</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+
+
+    <div class="container-fluid w-100">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner bg-secondary">
+                <h1 class="text-center" style="color:white">Comentarios</h1>
+                <div class="carousel-item active">
+                    <div class="item active">
+                        <blockquote>
+                            <div class="container-fluid w-50"> 
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2">
+                                        <img class="text-center" src="user.png" alt="">
+                                    </div>
+                                    <div class="col-md-2 col-sm-2">
+                                        <h3 style="color:white;">Neptuno</h3>
+                                        <small style="color:white;">Piloto</small>
+                                    </div>
+                                </div>
+                                <p style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                                <small class="text-center" style="color:white;">Someone famous</small>
+                                <br>
+                                <br>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="item active">
+                        <blockquote>
+                            <div class="container-fluid w-50"> 
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2">
+                                        <img class="text-center" src="user.png" alt="">
+                                    </div>
+                                    <div class="col-md-2 col-sm-2">
+                                        <h3 style="color:white;">Berta</h3>
+                                        <small style="color:white;">Enfermera</small>
+                                    </div>
+                                </div>
+                                <p style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                                <br>
+                                <br>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="item active">
+                        <blockquote>
+                            <div class="container-fluid w-50"> 
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-2">
+                                        <img class="text-center" src="user.png" alt="">
+                                    </div>
+                                    <div class="col-md-2 col-sm-2">
+                                        <h3 style="color:white;">Alexander</h3>
+                                        <small style="color:white;">Gigoló</small>
+                                    </div>
+                                </div>
+                                <p style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                                <br>
+                                <br>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon" style="color:black"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="false"></span>
+                <span class="sr-only">next</span>
+            </a>
+        </div>
+    </div>
     <br>
-    <br>
+
 
     <div class="container-fluid w-75">
         <h1>Preguntas frecuentes</h1>
