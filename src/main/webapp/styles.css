@@ -10,11 +10,11 @@ and open the template in the editor.
 
 .clickable:hover {
     cursor: pointer;
-    color: red;
+    color: #33A2FF;
 }
 
 .selected {
-    color: red;
+    color: #33A2FF;
     cursor: pointer;
 }
 
@@ -29,10 +29,6 @@ and open the template in the editor.
     top: 50%;
 }
 
-
-body{
-    background-color: #f1f1f1;
-}
 .main-timeline-section{
     position: relative;
     width: 100%;  
