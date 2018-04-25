@@ -65,6 +65,56 @@
         <br>
     </div>
 
+    <div class="container">
+        <h1 class="text-center">Reserva sencilla</h1>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <section class="main-timeline-section">
+                    <div class="timeline-start"></div>
+                    <div class="conference-center-line"></div>
+                    <div class="conference-timeline-content">
+
+                        <div class="timeline-article content-right-container">
+                            <div class="content-date">
+                                <span>1. Elige tu pista</span>
+                            </div>
+                            <div class="meta-date"></div>
+                            <div class="content-box">
+                                <p>Selecciona de entre las más de 1000 pistas que te ofrecemos la que más te interese.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-article content-left-container">
+                            <div class="content-date">
+                                <span>2. Reserva</span>
+                            </div>
+                            <div class="meta-date"></div>
+                            <div class="content-box">
+                                <p>Elige jugar con un equipo propio o con un grupo aleatorio de personas.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-article content-right-container">
+                            <div class="content-date">
+                                <span>3. ¡A jugar!</span>
+                            </div>
+                            <div class="meta-date"></div>
+                            <div class="content-box">
+                                <p>Juega y diviértete al máximo.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="timeline-end"></div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
 
     <div class="container-fluid w-100">
         <div id="demo" class="carousel slide" data-ride="carousel">
