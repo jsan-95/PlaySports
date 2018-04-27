@@ -44,14 +44,14 @@
                                     <div class="form-group">
                                         <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
                                         <div class="col-md-12">
-                                            <input class="form-control" id="subject" name="subject" placeholder="Introuce el asunto del mensaje aquí">
+                                            <input class="form-control" id="subject" name="subject" placeholder="Introduce el asunto del mensaje">
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
                                         <div class="col-md-12">
-                                            <textarea class="form-control" id="message" name="message" placeholder="Introuce tu mensaje aquí. Te responderemos en menos de 2 días." rows="4"></textarea>
+                                            <textarea class="form-control" id="message" name="message" placeholder="Introduce tu mensaje. Te responderemos en menos de 2 días." rows="4"></textarea>
                                         </div>
                                     </div>
 

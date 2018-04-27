@@ -201,7 +201,7 @@
                                         </div>
                                         <div class="col-md-3 col-sm-3">
                                             <h3 style="color:white;">Alexander</h3>
-                                            <small style="color:white;">Gigoló</small>
+                                            <small style="color:white;">Monitor deportivo</small>
                                         </div>
                                     </div>
                                     <p style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
@@ -233,15 +233,15 @@
                 <h3>¿Quienes somos?</h3>
                 <p id="respuesta1" style="display: none;">
                     Somos una sociedad de Gran Canaria en estado de crecicimiento. Ofrecemos un servicio para que los
-                    aficionados al deporte puedan alquilar sus instlaciones deportivas favoritas.
+                    aficionados al deporte puedan alquilar sus instalaciones deportivas favoritas.
                 </p>
             </div>
             <hr>
             <div id="pregunta2" class="col-md-12 clickable" onClick="prueba('pregunta2');">
                 <h3>¿Qué hacemos?</h3>
                 <p id="respuesta2" style="display: none;">
-                    Nos dedicamos a gestionar el alquiler de instalaciones deportivas. Te damos la posibilidad de pagar
-                    las cuotas online o si prefieres puedes pagar en el local.
+                    Nos dedicamos a gestionar el alquiler de instalaciones deportivas. Te damos la posibilidad de
+                    realizar reservas de forma online, además de los pagos.
                 </p>
             </div>
             <hr>
@@ -249,7 +249,7 @@
                 <h3>¿Hay que pagar para usar PlaySports?</h3>
                 <p id="respuesta3" style="display: none;">
                     PlaySports es de uso totalmente gratuito, nuestras ganancias se corresponden con un porcentaje del 
-                    coste de alquiler de las instalaciones.</p>
+                    coste del alquiler de las instalaciones deportivas.</p>
             </div>
             <hr>
         </div>
