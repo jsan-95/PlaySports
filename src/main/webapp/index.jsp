@@ -11,18 +11,24 @@
 
         <jsp:include page="header.jsp" />
 
-    <div class="container-fluid w-100">
-        <img class="d-block w-100" src="mobile.jpg" alt="First slide">
+    <div class="container-fluid w-100 ml-auto mr-auto">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="mobile.jpg" alt="First slide">
+                <div class="carousel-caption centered">
 
-        <div class="carousel-caption">
-
-            <div class="item active">
-                <div class="col-md-4 col-sm-4">
-                    <h3>No pienses, reserva y disfruta</h3>
-                    <button class="btn btn-light btn-lg">Descarga ya!</button>
+                    <div class="item active">
+                        <div class="col-md-4 col-sm-4">
+                            <h3>No pienses, reserva y disfruta</h3>
+                            <button class="btn btn-light btn-lg">Descarga ya!</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
+
+
     </div>
 
     <div class="container-fluid w-100">
@@ -115,9 +121,9 @@
     </div>
 
     <br>
-    
 
-    <div class="container-fluid w-100">
+
+    <div class="carousel slide bg-inverse w-100 ml-auto mr-auto">
         <div id="demo" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ul class="carousel-indicators">
