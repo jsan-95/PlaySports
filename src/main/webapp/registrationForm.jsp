@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <jsp:include page="header.jsp" />
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118338820-1"></script>
         <script>
@@ -22,7 +22,6 @@
 
             gtag('config', 'UA-118338820-1');
         </script>
-        <jsp:include page="header.jsp" />
     </head>    
     <body>
         <br>

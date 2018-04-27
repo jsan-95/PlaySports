@@ -7,7 +7,9 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <head><!-- Global site tag (gtag.js) - Google Analytics -->
+    <head>
+        <jsp:include page="header.jsp" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118338820-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -18,7 +20,6 @@
 
             gtag('config', 'UA-118338820-1');
         </script>
-        <jsp:include page="header.jsp" />
     </head>
     <body>
         <div class="container-fluid w-75">
