@@ -8,6 +8,11 @@ and open the template in the editor.
     Author     : Yisus95
 */
 
+.image {
+    width: 100%;
+    height: auto;
+}
+
 .clickable:hover {
     cursor: pointer;
     color: #33A2FF;
