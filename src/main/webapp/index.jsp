@@ -11,11 +11,11 @@
 
         <jsp:include page="header.jsp" />
 
-    <div class="container-fluid w-100 ml-auto mr-auto">
+    <div class="w-100 ml-auto mr-auto">
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="mobile.jpg" alt="First slide">
-                <div class="carousel-caption centered">
+                <div class="carousel-caption centered top-left">
 
                     <div class="item active">
                         <div class="col-md-4 col-sm-4">
@@ -134,6 +134,7 @@
 
             <!-- The slideshow -->
             <div class="carousel-inner bg-secondary">
+                <br>
                 <h1 class="text-center" style="color:white">Comentarios</h1>
                 <div class="carousel-item active">
                     <div class="item active">
@@ -141,10 +142,10 @@
                             <div class="container-fluid w-50"> 
                                 <br>
                                 <div class="row">
-                                    <div class="col-md-2 col-sm-2">
+                                    <div class="col-md-3 col-sm-3">
                                         <img class="text-center" src="user.png" alt="">
                                     </div>
-                                    <div class="col-md-2 col-sm-2">
+                                    <div class="col-md-3 col-sm-3">
                                         <h3 style="color:white;">Neptuno</h3>
                                         <small style="color:white;">Piloto</small>
                                     </div>
@@ -163,10 +164,10 @@
                             <div class="container-fluid w-50"> 
                                 <br>
                                 <div class="row">
-                                    <div class="col-md-2 col-sm-2">
+                                    <div class="col-md-3 col-sm-3">
                                         <img class="text-center" src="user.png" alt="">
                                     </div>
-                                    <div class="col-md-2 col-sm-2">
+                                    <div class="col-md-3 col-sm-3">
                                         <h3 style="color:white;">Berta</h3>
                                         <small style="color:white;">Enfermera</small>
                                     </div>
@@ -184,10 +185,10 @@
                             <div class="container-fluid w-50"> 
                                 <br>
                                 <div class="row">
-                                    <div class="col-md-2 col-sm-2">
+                                    <div class="col-md-3 col-sm-3">
                                         <img class="text-center" src="user.png" alt="">
                                     </div>
-                                    <div class="col-md-2 col-sm-2">
+                                    <div class="col-md-3 col-sm-3">
                                         <h3 style="color:white;">Alexander</h3>
                                         <small style="color:white;">Gigoló</small>
                                     </div>
@@ -219,18 +220,25 @@
         <hr>
         <div id="pregunta1" class="col-md-12 clickable" onClick="prueba('pregunta1');">
             <h3>¿Quienes somos?</h3>
-            <p id="respuesta1" style="display: none;">Somos una sociedad de Gran Canaria en estado de crecicimiento.</p>
+            <p id="respuesta1" style="display: none;">
+                Somos una sociedad de Gran Canaria en estado de crecicimiento. Ofrecemos un servicio para que los
+                aficionados al deporte puedan alquilar sus instlaciones deportivas favoritas.
+            </p>
         </div>
         <hr>
         <div id="pregunta2" class="col-md-12 clickable" onClick="prueba('pregunta2');">
             <h3>¿Qué hacemos?</h3>
-            <p id="respuesta2" style="display: none;">Nos dedicamos a gestionar el alquiler de instalaciones deportivas.</p>
+            <p id="respuesta2" style="display: none;">
+                Nos dedicamos a gestionar el alquiler de instalaciones deportivas. Te damos la posibilidad de pagar
+                las cuotas online o si prefieres puedes pagar en el local.
+            </p>
         </div>
         <hr>
         <div id="pregunta3" class="col-md-12 clickable" onClick="prueba('pregunta3');">
             <h3>¿Hay que pagar para usar PlaySports?</h3>
-            <p id="respuesta3" style="display: none;">PlaySports es de uso totalmente gratuito, nuestras ganancias se corresponden con un 1% 
-                del coste de alquiler de las instalaciones.</p>
+            <p id="respuesta3" style="display: none;">
+                PlaySports es de uso totalmente gratuito, nuestras ganancias se corresponden con un porcentaje del 
+                coste de alquiler de las instalaciones.</p>
         </div>
         <hr>
     </div>
@@ -248,6 +256,9 @@
                 $('#' + info).removeClass('selected');
                 $('#' + info).addClass('clickable');
                 document.getElementById('respuesta' + i).style.display = 'none';
+                if(info === a){
+                    return;
+                }
             }
         }
         if ($('#' + a).hasClass('clickable')) {

@@ -15,12 +15,12 @@
             <br>
             <h2>PlaySports</h2>
             <address>
-                <strong>Hythe Window Cleaning</strong><br>
-                15 Springfield Way<br>
-                Hythe<br>
-                Kent<br>
-                United Kingdon<br>
-                CT21 5SH<br>
+                <strong>Reserva de instalaciones deportivas</strong><br>
+                Lugo<br>
+                Las Palmas<br>
+                Las Palmas de Gran Canaria<br>
+                Gran Canaria<br>
+                35004<br>
                 <abbr title="Phone">Tlf:</abbr> 928 333 333
                 <a class="nav-link" href="privacyPolicy.jsp">Política de privacidad</a>
             </address>

@@ -16,7 +16,7 @@
     <div class="container-fluid w-75 border">
         <form role="form" action="index.jsp" method="post">
 
-            <h1 class="well">Registration Form</h1>
+            <h1 class="well">Formulario de registro</h1>
             <div class="col-lg-12 well">
                 <div class="row">
 
@@ -51,7 +51,7 @@
                                 <input type="text" name = "address" placeholder="Dirección" required="required" class="form-control">
                             </div>	
                         </div>
-                        <button type="submit" class="btn btn-lg btn-info">Submit</button>
+                        <button type="submit" class="btn btn-lg btn-info">Enviar</button>
                         <br>
                     </div>
                 </div>
