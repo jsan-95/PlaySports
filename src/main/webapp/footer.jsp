@@ -5,7 +5,7 @@
     <h1 class="text-center" style="color:white">Conócenos</h1>
     <div class="row">
         <div class="col">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879.7012048170492!2d-15.429108870803393!3d28.12197779891387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc4095749e94c325%3A0xe17285f3fcbba675!2sCalle+Beethoven%2C+35005+Las+Palmas+de+Gran+Canaria%2C+Las+Palmas!5e0!3m2!1ses!2ses!4v1524869728287" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879.7012048170492!2d-15.429108870803393!3d28.12197779891387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc4095749e94c325%3A0xe17285f3fcbba675!2sCalle+Beethoven%2C+35005+Las+Palmas+de+Gran+Canaria%2C+Las+Palmas!5e0!3m2!1ses!2ses!4v1524869728287" width="400" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
 
 

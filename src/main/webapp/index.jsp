@@ -82,7 +82,7 @@
             <br>
         </div>
 
-        <div class="container">
+        <div class="container" id="funcion">
             <h1 class="text-center">Reserva sencilla</h1>
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -226,7 +226,7 @@
         <br>
 
 
-        <div class="container-fluid w-75">
+        <div class="container-fluid w-75" id="preguntas">
             <h1>Preguntas frecuentes</h1>
             <hr>
             <div id="pregunta1" class="col-md-12 clickable" onClick="prueba('pregunta1');">
@@ -248,8 +248,8 @@
             <div id="pregunta3" class="col-md-12 clickable" onClick="prueba('pregunta3');">
                 <h3>¿Hay que pagar para usar PlaySports?</h3>
                 <p id="respuesta3" style="display: none;">
-                    PlaySports es de uso totalmente gratuito, nuestras ganancias se corresponden con un porcentaje del 
-                    coste del alquiler de las instalaciones deportivas.</p>
+                    PlaySports es de uso totalmente gratuito, nuestras ganancias se corresponden con un porcentaje del 25% 
+                    del coste del alquiler de las instalaciones deportivas.</p>
             </div>
             <hr>
         </div>

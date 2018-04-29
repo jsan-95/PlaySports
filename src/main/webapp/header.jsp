@@ -61,8 +61,17 @@
             <!-- Links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
+                    <a class="nav-link" href="#funcion">¿Cómo funciona?</a>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#preguntas">Preguntas frecuentes</a>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
                     <a class="nav-link" href="#conocenos">Conócenos</a>
             </ul>
+
         </nav>
     </header>
 

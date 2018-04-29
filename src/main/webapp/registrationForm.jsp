@@ -57,12 +57,6 @@
                                     <input type="password" name = "password2" placeholder="Repita la contraseña" required="required" class="form-control">
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-4 form-group">
-                                    <label for="address" data-error="wrong" data-success="right">Dirección</label>
-                                    <input type="text" name = "address" placeholder="Dirección" required="required" class="form-control">
-                                </div>	
-                            </div>
                             <button type="submit" class="btn btn-lg btn-info">Enviar</button>
                             <br>
                         </div>
